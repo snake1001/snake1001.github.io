@@ -1,7 +1,7 @@
 ---
 title: "My First Page"
 date: 2023-10-29
-category: [show]
+category: [test]
 ---
 
 # 一级标题
