@@ -50,8 +50,10 @@ img_path: /assets/images/
 
 ### 6、搜索网络/本地文件进行加密
 
-` sub_409AA0(groupSuffixes, gSync);		//加密网络文件
-sub_409780(groupSuffixes, gSync);		//加密本地文件	`
+```
+sub_409AA0(groupSuffixes, gSync);		//加密网络文件
+sub_409780(groupSuffixes, gSync);		//加密本地文件
+```
 
 两者实际上都调用了 `sub_4093B0`来处理密码生成、文件选取和加密。
 
